@@ -1,0 +1,40 @@
+package com.telerikacademy.oop.WIM.commands._enums;
+
+public enum CommandType {
+
+//people
+    REGISTERNEWPERSON,
+    SHOWALLPEOPLE,
+    ADDPERSONTOTEAM,
+    ASSIGNWORKTOPERSON,
+    UNASSIGNWORKTOPERSON,
+    LOGIN,
+    LOGOUT,
+
+//team
+    REGISTERNEWTEAM,
+    SHOWALLTEAMS,
+    SHOWMEMBERSINTEAM,
+    SHOWTEAMACTIVITY,
+    SHOWTEAMBOARDS,
+    ASSIGNWORKTOTEAM,
+    UNASSIGNWORKTOTEAM,
+
+//board
+    SHOWBOARDACTIVITY,
+    CREATEITEMINBOARD,
+    CREATEBOARDINTEAM,
+
+//change WI
+    CHANGEWISTATE,
+
+//comment
+    ADDCOMMENT,
+
+//lists
+    WIMSORTBY,
+    WIMFILTERBY,
+    WIMLISTOF,
+
+    STATUS;
+}
